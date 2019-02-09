@@ -9,7 +9,6 @@ class News:
         self.publishedAt = publishedAt
 
 
-
 # class Articles:
 #     '''
 #     articles class to define sources Objects
