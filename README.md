@@ -35,6 +35,7 @@ No known bugs, incase of any kindly feel free to contact me @bertocarl in github
     - HTML
     - Bootstrap
     - JavaScript
+    -Flash framework
 
 ## Support and contact details
 In case of any problems reach me on github @bertocarl or via email at aomware@gmail.com.
