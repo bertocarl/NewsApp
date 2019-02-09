@@ -1,0 +1,15 @@
+{% import 'macro.html' as macro%}
+
+{%block content %}
+
+<!--Picture  -->
+<div  style="background: url({{news.urlToImage}}) no-repeat center center">
+<!-- details -->
+<h3>{{news.title}}</h3>
+<p class="">{{news.description}}</p>
+<p class="">{{news.publishedAt}}
+</b>  - <i>Written by {{news.author}}</i>
+</p>
+
+</div>
+{%endblock%}

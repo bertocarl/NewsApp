@@ -1,0 +1,26 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+h1,
+h2 {
+    color: #377ba8;
+    text-align: center;
+
+}
+h1,
+h2 {
+    margin: 0;
+}
+h1 {
+    border-bottom: 2px solid #eee;
+}
+h2 {
+    font-size: 1.2em;
+}
+$buttonColor: #ff1d8e	;
+
+body{
+	font-family: 'Roboto';
+	font-size: 0.9em;
+    background-color: #BBDEFB;
+}

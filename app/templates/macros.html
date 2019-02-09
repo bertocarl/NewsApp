@@ -1,0 +1,21 @@
+{%macro displayNewsList(news_list) %}
+  {% for news in news_list %}
+  {% block head %}
+     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+       {% endblock %}
+<div class="col-6 col-md-4">
+  <span class="border">
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+  <strong><h4>{{news.title|truncate(50)}}</h4></strong>
+    <a href="{{news.url}}">
+    <img src="{{news.urlToImage}}" alt="{{news.title}}" width="400" height="236">
+    </a>
+  </div>
+</div>
+</span>
+</div>
+<br>
+   {% endfor %}
+
+    {% endmacro %}

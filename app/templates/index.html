@@ -1,0 +1,46 @@
+{% import 'macros.html' as macro%}
+{% extends 'base.html'%}
+
+
+{% block styles%}
+    {{ super() }}
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+{% endblock %}
+
+<!--contents  -->
+{%block content%}
+<br>
+    <!--business  -->
+<h3 style="text-align:center;"id="b">Business</h3>
+<ul>
+  {{macro.displayNewsList(business)}}
+</ul>
+<br>
+<br>
+  <!-- health -->
+<h3 style="text-align:center;" id="h">Health</h3>
+  <ul>{{macro.displayNewsList(health)}}</ul>
+<br>
+<br>
+  <!-- technology -->
+<h3 style="text-align:center;"id="t">Technology</h3>
+<ul>
+{{macro.displayNewsList(technology)}}
+</ul>
+<br>
+<br>
+  <!--entertainment  -->
+<h3 style="text-align:center;"id="e">Entertainment</h3>
+<ul>
+  {{macro.displayNewsList(entertainment)}}
+</ul>
+<br>
+<br>
+  <!--sports  -->
+<h3 style="text-align:center;"id="s">Sports</h3>
+<ul>
+  {{macro.displayNewsList(sports)}}
+</ul>
+  <br>
+
+      {%endblock%}
