@@ -1,4 +1,4 @@
-#### News254 Highlight Application
+#### News Highlight Application
 ### Author Albert Carlos Omware
 ## Created on 1/02/2019 
 
