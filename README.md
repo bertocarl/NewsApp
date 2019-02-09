@@ -3,7 +3,7 @@
 ## Created on 1/02/2019 
 
 ## Description
-News254 Highlight is a web application that is meant to update those who work hard and come late on current affairs happening all over the world. The website has the home page, that has a list of all sources of news sorted in categories. 
+News Highlight is a web application that is meant to update those who work hard and come late on current affairs happening all over the world. The website has the home page, that has a list of all sources of news sorted in categories. 
 
 
 ### Who is the target User?
