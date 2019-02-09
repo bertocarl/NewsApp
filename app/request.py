@@ -8,7 +8,6 @@ from .models import News
 # # Getting the news base url
 # base_url = app.config["NEWS_API_BASE_URL"]
 
-
 # Getting api key
 api_key = None
 
